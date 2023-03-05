@@ -1,1 +1,9 @@
-
+body {
+    background-color: rgb(206, 132, 191);
+  }
+  h1 {
+    color: yellowgreen;
+  }
+  p {
+    color: rgb(202, 127, 63);
+  }
