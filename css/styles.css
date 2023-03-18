@@ -1,15 +1,22 @@
 body {
     background-color: black;
+    color: white;
   }
-  h1, li {
-    color: yellowgreen;
+  h1 {
+    font-size: 20px;
   }
-  h2 {
-    color: green;
+  p {
+    font-size: 12px;
+    color: lightgray;
   }
-  h3, dd {
-    color: yellow;
+  .divi {
+    border: 2px white dotted;
+    width: 100px;
+    height: 100px;
   }
-  p, dt {
-    color: rgb(202, 127, 63);
+  ol {
+    list-style: lower-latin;
+  }
+  ul {
+    list-style-type: square
   }
