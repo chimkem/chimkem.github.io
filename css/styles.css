@@ -11,10 +11,6 @@ body {
     border-radius: 6px;
     color: lightgray;
   }
-  footer {
-    font-size: 7px;
-    color: yellow;
-  }
   .divi {
     border: 2px white dotted;
     width: 100px;
