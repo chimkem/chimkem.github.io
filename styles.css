@@ -1,0 +1,107 @@
+/* Kaikissa sama, ellei toisin sanota. */
+
+h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    border: 3px lightblue;
+    border-radius: 6px;
+    color: lightgray;
+  }
+  
+  ol {
+    list-style: upper-latin;
+  }
+  ul {
+    list-style-type: square
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  a {
+    color: white;
+  }
+
+/* Index */
+
+.indx {
+  background-color: black;
+  color: white;
+}
+
+.divi {
+  border: 2px white dotted;
+  width: 100px;
+  height: 100px;
+}
+
+/* Secondary */
+
+.sec {
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec p {
+  border: 1px solid black;
+  background-color: rgb(75, 55, 32);
+  padding: 10px;
+  width: 500px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+/* Ystävämme nav bar :) */
+.navi {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid white;
+}
+.navi li{
+  display:inline;
+}
+.navi a{
+  display:inline-block;
+  padding:10px;
+  text-decoration: none;
+  font-size: larger;
+  font-family: Verdana;
+}
+.navi a:hover {
+  color: red;
+}
+
+/* Halusin nav barin näyttävän erilaistelta kakkossivulle */
+.navi2 {
+  list-style:none;
+  margin:0;
+  overflow: hidden;
+  background-color: rgb(75, 55, 32);
+  padding: 10px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.navi2 li{
+display:inline;
+}
+.navi2 a{
+display:inline-block;
+padding:10px;
+text-decoration: none;
+font-size: large;
+font-family: Verdana;
+color: white;
+}
+.navi2 a:hover {
+color: grey;
+}
+/* Kolmannen sivun jouduin lätkäsemään omaan css tiedostoonsa */
