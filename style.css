@@ -19,9 +19,6 @@ html {
     .btn, .gnb, .push, .logoo {
         display: none;
     }
-    .etusivucontent {
-        padding: 20px;
-    }
     .hidear {
         background-color: white;
         margin-top: 10px;
@@ -184,14 +181,18 @@ span {
     background-repeat: no-repeat;
 }
 .etusivucontent {
-    height: 20px;
+    padding: 20px;
+    margin-top: 10%;
+    height: fit-content;
     border-radius: 10px 10px 0px 0px;
     color: white;
+    background-color: white;
 }
 .normi {
     padding-top: 3vh;
     padding-bottom: 2vh;
     margin:0;
+    height: 100%;
 }
 .hid {
     width: 100%;
