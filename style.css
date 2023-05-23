@@ -304,7 +304,7 @@ position: relative;
     border-radius: 10px;
     max-width: 100%;
     width: 1000px;
-    height: 740px;
+    height: 750px;
     margin-bottom: 10px;
 }
 
@@ -347,6 +347,11 @@ textarea {
     padding-bottom: 5vh;
     margin:0;
 }
+.admini {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    margin:0;
+}
 .inputbuttons {
     margin: 0;
     background-color: #60AEFF;
@@ -369,6 +374,7 @@ textarea {
     border-radius: 0 0 10px 10px;
     max-width: 700px;
     height: 640px;
+    border-bottom: 10px;
     top: 0;
     left: 0;
     bottom: 0;
@@ -399,9 +405,6 @@ td:nth-child(odd) {
 td:nth-child(even) {
     background-color: #60AEFF;
     color: white;
-}
-.row {
-    padding-top: 10px;
 }
 article {
     font-size: 15px;
