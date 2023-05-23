@@ -1,0 +1,415 @@
+/* Alustetaan sivu, halutaan aloittaa nollasta*/
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    height: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+/* Responsiivisuus */
+@media (max-width: 700px) {
+    nav li {
+        display:inline-block;
+        text-align: center;
+      }
+    .btn, .gnb, .push, .logoo {
+        display: none;
+    }
+    .hidear {
+        background-color: white;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 10px;
+    }   
+}
+@media (min-width: 701px) {
+    .hiddenlogo, .hid, .hide, .hidear {
+        display: none;
+    }
+    nav li {
+        display:inline;
+        float: left;
+      }
+    .push   {
+        float: right;
+        padding: 5px;
+    }
+    .btn {
+        background-color: #60AEFF;
+    }
+    .etusivuboxi {
+        background-image: url(gallery/bgimg.png);
+    }
+}
+
+/* Otsikot */
+.otsikko{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.otsikkotumma{
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.toinenotsikko {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+.pieniotsikko {
+    font-size: 25px;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* Ystävämme nav bar :) */
+header {
+    background-color: #003B8A;
+    border-bottom: 1px solid white;
+    display: inline;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav a {
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+  }
+a:hover {
+  color: #60AEFF;
+  }
+
+/* Halusin, että nav bar näyttäisi erikseen millä sivulla juuri nyt on*/
+.page{
+    color: #60AEFF;
+    font-weight: bold; 
+}
+.logoo {
+    padding-right: 15px;
+    float: left;
+}
+
+/* Näytillä vain kapealla näytöllä */
+.hiddenlogo {
+    text-align: center;
+    padding-top:5px;
+}
+.hiddenlogo img {
+    width: 100%;
+    max-width: 50px;
+}
+
+/* Dark Mode*/
+.btn {
+    color: white;
+    float: right;
+}
+button {
+    border: none;
+    background: transparent;
+    color: white;
+    padding:10px;
+    float: right;
+}
+.darkmode{
+    background-image: linear-gradient(#60AEFF, #003B8A, black);
+    background-size: cover;
+    background-color:black;
+}
+.darkmode button {
+    color: black;
+}
+
+/* Yleiset */
+body {
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #60AEFF; /* Jos gradient ei toimi */
+    background-image: linear-gradient(white, #60AEFF);
+    background-repeat: no-repeat;
+    position: relative;
+    scroll-behavior: smooth;
+}
+a {
+    color: white;
+}
+article {
+    color: black;
+    font-size: 15px;
+}
+article p{
+    text-align: center;
+}
+footer {
+    background-color: #003B8A;
+    border-top: 1px solid white;
+    width: 100%;
+    margin-top: auto;
+}
+span {
+    color: white;
+}
+
+/* Etusivu */
+.hiddenhello {
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.etusivuboxi{
+    margin: auto;
+    max-width: 1600px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.etusivucontent {
+    padding: 20px;
+    margin-top: 10%;
+    height: fit-content;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: white;
+}
+.normi {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    margin:0;
+    height: 100%;
+}
+.hid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.nlink a{
+    color: black;
+    text-decoration: none;
+}
+.nlink a:hover{
+    color:#60AEFF;
+    text-decoration: none;
+}
+
+/* info */
+.clearfix {
+    padding: 10px 10px 0px 10px;
+    margin: 25px;
+    background-color: white;
+    text-align: start;
+}
+.ttx {
+    padding: 10px;
+}
+
+/* Yhteistyö */
+.yhtboxi {
+margin: auto;
+max-width: 1600px;
+height: fit-content;
+padding-bottom: 10px;
+text-align: center;
+border-radius: 10px;
+margin-bottom: 10px;
+background-image: url(gallery/bgimg.png);
+background-color: #003B8A;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.yhtcontent {
+height: 90px;
+border-radius: 10px 10px 0px 0px;
+color: white;
+padding: 5px;
+background-color: #003B8A;
+position: relative;
+}
+.yhtoc {
+    padding: 10px;
+    margin: 10px auto auto auto;
+    align-items: center;
+    justify-content: center  
+}
+
+/* Kalenteri */
+.calmain {
+        padding-top: 3vh;
+        padding-bottom: 2vh;
+        margin:0;
+}
+.calboxi {
+    margin: auto;
+    max-width: 1600px;
+    height: 780px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url(gallery/bgimg.png);
+    background-repeat: no-repeat;
+}
+.calcontent {
+    height: 90px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 5px;
+    background-color: #003B8A;
+}
+.tiputus {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.tiputus p, h4{
+    margin: 0px;
+    color: black;
+}
+.imagine {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.normalb {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+}
+
+/* Login + Adminportal */
+.loginboxi{
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 1000px;
+    height: 750px;
+    margin-bottom: 10px;
+}
+
+.logincontent {
+    background-color: #003B8A;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    height: 80px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+}
+.boxicontent {
+    border-radius: 10px;
+    height: 100px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+}
+form {
+    margin: 35px;
+    padding: 5px;
+    font-size: 15px;
+}
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+}
+textarea {
+    resize: none;
+    width: 300px;
+    max-width: 100%; 
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logini {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin:0;
+}
+.inputbuttons {
+    margin: 0;
+    background-color: #60AEFF;
+    color: white;
+    border: transparent;
+}
+.loginei {
+    color: black;
+}
+.hello {
+    float: none;
+    color: white;
+    background-color: #60AEFF;
+    border-radius: 10px;
+}
+.adminstuff {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    max-width: 700px;
+    height: 640px;
+    border-bottom: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Taulukot */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    padding: 4px 20px 4px 8px;
+}
+table td {
+    width:50%;
+    padding: 4px 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+table tr {
+    border-bottom: 1px solid black;
+}
+td:nth-child(odd) {
+    background-color: #003B8A;
+    color: white;
+}
+td:nth-child(even) {
+    background-color: #60AEFF;
+    color: white;
+}
+article {
+    font-size: 15px;
+    text-align: start;
+}
+.hops {
+    padding-top: 3px;
+    margin: 0;
+}
