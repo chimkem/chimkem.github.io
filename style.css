@@ -24,11 +24,7 @@ html {
         margin-top: 10px;
         padding: 20px;
         border-radius: 10px;
-    }
-    .adminboxi {
-        height: 100%;
-        min-height: 800px;
-    }    
+    }   
 }
 @media (min-width: 701px) {
     .hiddenlogo, .hid, .hide, .hidear {
@@ -47,9 +43,6 @@ html {
     }
     .etusivuboxi {
         background-image: url(gallery/bgimg.png);
-    }
-    .adminboxi {
-        height: 740px;
     }
 }
 
@@ -312,15 +305,6 @@ position: relative;
     max-width: 100%;
     width: 1000px;
     height: 740px;
-    margin-bottom: 10px;
-}
-.adminboxi{
-    background-color: white;
-    border: 1px solid black;
-    margin: auto;
-    border-radius: 10px;
-    max-width: 100%;
-    width: 1000px;
     margin-bottom: 10px;
 }
 
